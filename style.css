@@ -19,14 +19,17 @@ body {
 }
 
 header {
-    background: #0078d4;
+    background: #add8e6; /* Light blue */
     color: #fff;
-    padding: 1.5em 0;
+    padding: 3em 0;
     text-align: center;
+    background-image: url('https://via.placeholder.com/1500x500/ADD8E6/ffffff?text=Consulting+Services');
+    background-size: cover;
+    background-position: center;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 nav {
@@ -51,17 +54,48 @@ nav ul li a {
 }
 
 main {
-    padding: 2em 0;
+    padding: 3em 0;
 }
 
 main h2 {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 footer {
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
     background: #333;
     color: #fff;
     margin-top: 2em;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 2em;
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #0078d4;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005a9c;
 }
